@@ -1,4 +1,4 @@
-# Cash Machine Challenge
+# ATM Challenge
 
 ## Description
 - [Link](http://dojopuzzles.com/problemas/exibe/caixa-eletronico/)
