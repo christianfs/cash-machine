@@ -4,6 +4,11 @@ from main.cash_machine import CashMachine
 
 
 class TestCashMachine(TestCase):
+    def test_return_error_message(self):
+        cash_machine = CashMachine()
+        cash = cash_machine.cash_machine('w')
+        assert cash == 'Informe um valor inteiro!'
+
     def test_return_10(self):
         cash_machine = CashMachine()
         cash = cash_machine.cash_machine(10)
@@ -97,4 +102,4 @@ class TestCashMachine(TestCase):
     def test_return_13671(self):
         cash_machine = CashMachine()
         cash = cash_machine.cash_machine(13671)
-        assert cash == 'Solicitação não atendida. A máquina trabalha apenas com notas de 10, 20, 50 e 100.'
+        assert cash is None
