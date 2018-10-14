@@ -4,7 +4,7 @@
 
 - This application was created to give a solution to the challenge proposed by Zenvia.
 
-[Link](http://dojopuzzles.com/problemas/exibe/caixa-eletronico/)
+- Challenge description: [Link](http://dojopuzzles.com/problemas/exibe/caixa-eletronico/)
 
 ## Built With
 
